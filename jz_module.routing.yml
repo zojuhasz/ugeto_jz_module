@@ -1,0 +1,14 @@
+jz_module.autocomplete:
+  path: '/jz-module-autocomplete/{field_name}/{count}'
+  defaults:
+    _controller: '\Drupal\jz_module\Controller\AutocompleteController::autocomplete'
+    _format: json
+  requirements:
+    _access: 'TRUE'
+jz_module.pedigre:
+  path: '/jz-module-pedigre/{no}'
+  defaults:
+    _controller: '\Drupal\jz_module\Controller\PedigreController::pedigretable'
+    _format: json
+  requirements:
+    _access: 'TRUE'
