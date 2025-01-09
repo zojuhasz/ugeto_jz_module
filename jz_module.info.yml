@@ -1,0 +1,9 @@
+name: JZ module
+description: JZ module
+package: Custom
+type: module
+core_version_requirement: ^8 || ^11
+version: '11.x-4.3'
+project: 'lovak'
+datestamp: 1575735787
+

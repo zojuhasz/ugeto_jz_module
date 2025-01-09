@@ -1,0 +1,4 @@
+name: jz_module with template
+description: Our nice module with jz module
+type: module
+core: 10.x
